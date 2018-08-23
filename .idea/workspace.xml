@@ -33,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PermutationTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PermutationTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/tdd/PermutationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="122">
+              <caret line="41" column="32" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Permutation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Permutation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/tdd/Permutation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="484">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -710,8 +710,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PermutationTest.should_get_size_of_24_when_input_abcd" />
-        <item itemvalue="JUnit.PermutationTest" />
         <item itemvalue="JUnit.PermutationTest.should_return_abc_acb_bac_bca_cab_cba_when_input_abc" />
+        <item itemvalue="JUnit.PermutationTest" />
         <item itemvalue="JUnit.PermutationTest.should_return_ab_ba_when_input_ab" />
         <item itemvalue="JUnit.PermutationTest.should_return_a_when_input_a" />
       </list>
@@ -729,23 +729,11 @@
       <updated>1531277313243</updated>
       <workItem from="1531277316425" duration="4985000" />
       <workItem from="1531288801832" duration="5188000" />
-      <workItem from="1535002486851" duration="1534000" />
+      <workItem from="1535002486851" duration="2395000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CarTest_should_return_true_when_call_equals_two_cars_with_same_id - 2018.07.11 at 14h 54m 16s.xml">
-      <configuration name="CarTest.should_return_true_when_call_equals_two_cars_with_same_id" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParkingLotTest - 2018.07.11 at 15h 08m 59s.xml">
-      <configuration name="ParkingLotTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PermutationTest_should_return_a_when_input_a - 2018.08.23 at 13h 39m 05s.xml">
-      <configuration name="PermutationTest.should_return_a_when_input_a" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PermutationTest_should_return_a_when_input_a - 2018.08.23 at 13h 40m 54s.xml">
-      <configuration name="PermutationTest.should_return_a_when_input_a" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PermutationTest_should_return_a_when_input_a - 2018.08.23 at 13h 41m 20s.xml">
       <configuration name="PermutationTest.should_return_a_when_input_a" configurationId="JUnit" />
     </history-entry>
@@ -764,9 +752,21 @@
     <history-entry file="PermutationTest_should_return_abc_acb_bac_bca_cab_cba_when_input_abc - 2018.08.23 at 13h 56m 52s.xml">
       <configuration name="PermutationTest.should_return_abc_acb_bac_bca_cab_cba_when_input_abc" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PermutationTest_should_return_abc_acb_bac_bca_cab_cba_when_input_abc - 2018.08.23 at 14h 00m 23s.xml">
+      <configuration name="PermutationTest.should_return_abc_acb_bac_bca_cab_cba_when_input_abc" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PermutationTest - 2018.08.23 at 14h 00m 28s.xml">
+      <configuration name="PermutationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PermutationTest - 2018.08.23 at 14h 02m 11s.xml">
+      <configuration name="PermutationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PermutationTest_should_get_size_of_24_when_input_abcd - 2018.08.23 at 14h 02m 15s.xml">
+      <configuration name="PermutationTest.should_get_size_of_24_when_input_abcd" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11707000" />
+    <option name="totallyTimeSpent" value="12568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -904,20 +904,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/tdd/PermutationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/tdd/Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="484">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/tdd/Permutation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/tdd/PermutationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="122">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

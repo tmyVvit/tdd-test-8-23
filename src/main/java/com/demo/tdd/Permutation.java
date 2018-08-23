@@ -22,6 +22,17 @@ public class Permutation {
             list.add(input.substring(2,3) + input.substring(1,2) + input.substring(0,1));
             return list;
         }
+        if(input.length()>3){
+            for(int i = 0; i < input.length(); i++){
+                String sub = input.substring(0, i) + input.substring(i+1);
+                List<String> res = cal(sub);
+                for(String str : res){
+                    list.add(input.charAt(i)+str);
+                }
+
+            }
+            return list;
+        }
         return Arrays.asList(input);
     }
 
