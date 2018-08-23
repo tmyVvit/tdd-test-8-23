@@ -2,6 +2,7 @@ package com.demo.tdd;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
 import java.util.List;
 
 import static org.hamcrest.CoreMatchers.is;
@@ -16,6 +17,6 @@ public class PermutationTest {
     // when
         List<String> result = permutation.cal(input);
     // then
-        assertThat(input, is(result));
+        assertThat(Arrays.asList(input), is(result));
     }
 }
