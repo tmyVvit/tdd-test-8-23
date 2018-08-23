@@ -13,6 +13,15 @@ public class Permutation {
             list.add(input.substring(1, 2) + input.substring(0, 1));
             return list;
         }
+        if(input.length() == 3) {
+            list.add(input);
+            list.add(input.substring(0,1) + input.substring(2,3) + input.substring(1,2));
+            list.add(input.substring(1,2) + input.substring(0,1) + input.substring(2,3));
+            list.add(input.substring(1,2) + input.substring(2,3) + input.substring(0,1));
+            list.add(input.substring(2,3) + input.substring(0,1) + input.substring(1,2));
+            list.add(input.substring(2,3) + input.substring(1,2) + input.substring(0,1));
+            return list;
+        }
         return Arrays.asList(input);
     }
 
