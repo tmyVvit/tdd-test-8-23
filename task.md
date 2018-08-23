@@ -9,3 +9,5 @@
 3. given: a String "abc"  
   when : permutation.cal("abc")  
   then : return ["abc","acb","bac","bca","cab","cba"]
+
+4. given: 
