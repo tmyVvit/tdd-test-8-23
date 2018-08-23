@@ -41,4 +41,16 @@ public class PermutationTest {
         // then
         assertThat(Arrays.asList("abc","acb","bac","bca","cab","cba"), is(result));
     }
+
+    @Test
+    public void should_get_size_of_24_when_input_abcd(){
+    // given
+        String input = "abcd";
+        Permutation permutation = new Permutation();
+
+    // when
+        List<String> result = permutation.cal(input);
+    // then
+        assertThat(24, is(result.size()));
+    }
 }

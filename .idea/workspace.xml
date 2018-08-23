@@ -543,32 +543,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PermutationTest">
+  <component name="RunManager" selected="JUnit.PermutationTest.should_get_size_of_24_when_input_abcd">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="ParkingLotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd-java-base_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.thoughtworks.tdd" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.tdd.ParkingLotTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="PermutationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
@@ -584,6 +561,29 @@
       <option name="MAIN_CLASS_NAME" value="com.demo.tdd.PermutationTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PermutationTest.should_get_size_of_24_when_input_abcd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java-base_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.demo.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.tdd.PermutationTest" />
+      <option name="METHOD_NAME" value="should_get_size_of_24_when_input_abcd" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -701,19 +701,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ParkingLotTest" />
       <item itemvalue="JUnit.PermutationTest.should_return_a_when_input_a" />
       <item itemvalue="JUnit.PermutationTest.should_return_ab_ba_when_input_ab" />
       <item itemvalue="JUnit.PermutationTest.should_return_abc_acb_bac_bca_cab_cba_when_input_abc" />
       <item itemvalue="JUnit.PermutationTest" />
+      <item itemvalue="JUnit.PermutationTest.should_get_size_of_24_when_input_abcd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PermutationTest.should_get_size_of_24_when_input_abcd" />
         <item itemvalue="JUnit.PermutationTest" />
         <item itemvalue="JUnit.PermutationTest.should_return_abc_acb_bac_bca_cab_cba_when_input_abc" />
         <item itemvalue="JUnit.PermutationTest.should_return_ab_ba_when_input_ab" />
         <item itemvalue="JUnit.PermutationTest.should_return_a_when_input_a" />
-        <item itemvalue="JUnit.ParkingLotTest" />
       </list>
     </recent_temporary>
   </component>
