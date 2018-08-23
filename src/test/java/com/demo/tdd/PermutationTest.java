@@ -8,6 +8,7 @@ import java.util.List;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.jupiter.api.Assertions.fail;
 
 public class PermutationTest {
     @Test
@@ -52,5 +53,20 @@ public class PermutationTest {
         List<String> result = permutation.cal(input);
     // then
         assertThat(24, is(result.size()));
+    }
+
+    @Test
+    public void should_throw_exception_when_given_null(){
+    // given
+        String input = "";
+        Permutation permutation = new Permutation();
+    // when
+        try{
+            permutation.cal(input);
+            fail("should throw exception");
+        }catch (Exception e){
+        }
+    // then
+        ;
     }
 }

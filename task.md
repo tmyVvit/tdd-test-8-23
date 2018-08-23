@@ -10,4 +10,6 @@
   when : permutation.cal("abc")  
   then : return ["abc","acb","bac","bca","cab","cba"]
 
-4. given: 
+4. given: a string ""
+   when : permutation.cal("")
+   then : throw exception
