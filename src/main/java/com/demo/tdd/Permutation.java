@@ -1,6 +1,5 @@
 package com.demo.tdd;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -15,7 +14,7 @@ public class Permutation {
             return Arrays.asList(input);
         }
         for(int i = 0; i < input.length(); i++){
-            String sub = get(input, i);
+            String sub = removeIndex(input, i);
             List<String> res = cal(sub);
             for(String str : res){
                 list.add(input.charAt(i)+str);
@@ -25,7 +24,7 @@ public class Permutation {
 
     }
 
-    private String get(String input, int index){
+    private String removeIndex(String input, int index){
         return input.substring(0, index) + input.substring(index+1);
     }
 }

@@ -12,61 +12,62 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 public class PermutationTest {
     @Test
-    public void should_return_ab_ba_when_input_ab(){
+    public void should_return_ab_ba_when_input_ab() {
         // given
         String input = "ab";
         Permutation permutation = new Permutation();
         // when
         List<String> result = permutation.cal(input);
         // then
-        assertThat(Arrays.asList("ab","ba"), is(result));
+        assertThat(Arrays.asList("ab", "ba"), is(result));
     }
 
     @Test
-    public void should_return_a_when_input_a(){
-    // given
+    public void should_return_a_when_input_a() {
+        // given
         String input = "a";
         Permutation permutation = new Permutation();
-    // when
+        // when
         List<String> result = permutation.cal(input);
-    // then
+        // then
         assertThat(Arrays.asList(input), is(result));
     }
+
     @Test
-    public void should_return_abc_acb_bac_bca_cab_cba_when_input_abc(){
+    public void should_return_abc_acb_bac_bca_cab_cba_when_input_abc() {
         // given
         String input = "abc";
         Permutation permutation = new Permutation();
         // when
         List<String> result = permutation.cal(input);
         // then
-        assertThat(Arrays.asList("abc","acb","bac","bca","cab","cba"), is(result));
+        assertThat(Arrays.asList("abc", "acb", "bac", "bca", "cab", "cba"), is(result));
     }
 
     @Test
-    public void should_get_size_of_24_when_input_abcd(){
-    // given
+    public void should_get_size_of_24_when_input_abcd() {
+        // given
         String input = "abcd";
         Permutation permutation = new Permutation();
 
-    // when
+        // when
         List<String> result = permutation.cal(input);
-    // then
+        // then
         assertThat(24, is(result.size()));
     }
 
     @Test
-    public void should_throw_exception_when_given_null(){
-    // given
+    public void should_throw_exception_when_given_null() {
+        // given
         String input = "";
         Permutation permutation = new Permutation();
-    // when
-        try{
+        // when
+        try {
             permutation.cal(input);
             fail("should throw exception");
-        }catch (Exception e){
+        } catch (Exception e) {
         }
-    // then
+        // then
         ;
     }
 }
