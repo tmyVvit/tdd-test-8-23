@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f80f1c0-6de2-4dda-ad90-73e300c2e5ad" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/tdd/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/tdd/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task.md" beforeDir="false" afterPath="$PROJECT_DIR$/task.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="PermutationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/tdd/PermutationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+            <state relative-caret-position="232">
+              <caret line="24" column="49" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,19 +45,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="task.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="22">
-                <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+              <first_editor relative-caret-position="220">
+                <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Permutation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Permutation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/tdd/Permutation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -431,8 +431,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/tdd/ParkingLot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/tdd/Permutation.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/demo/tdd/PermutationTest.java" />
-        <option value="$PROJECT_DIR$/task.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/tdd/Permutation.java" />
+        <option value="$PROJECT_DIR$/task.md" />
       </list>
     </option>
   </component>
@@ -543,7 +543,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PermutationTest.should_return_ab_ba_when_input_ab">
+  <component name="RunManager" selected="JUnit.PermutationTest.should_return_abc_acb_bac_bca_cab_cba_when_input_abc">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -584,29 +584,6 @@
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.tdd.ParkingLotTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ParkingLotTest.should_return_car_when_call_carGo_input_note_in_parkingLot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd-java-base_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.thoughtworks.tdd" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.tdd.ParkingLotTest" />
-      <option name="METHOD_NAME" value="should_return_car_when_call_carGo_input_note_in_parkingLot" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -662,6 +639,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="PermutationTest.should_return_abc_acb_bac_bca_cab_cba_when_input_abc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java-base_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.demo.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.tdd.PermutationTest" />
+      <option name="METHOD_NAME" value="should_return_abc_acb_bac_bca_cab_cba_when_input_abc" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -701,19 +701,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ParkingLotTest.should_return_car_when_call_carGo_input_note_in_parkingLot" />
       <item itemvalue="JUnit.CarTest.should_return_true_when_call_equals_two_cars_with_same_id" />
       <item itemvalue="JUnit.ParkingLotTest" />
       <item itemvalue="JUnit.PermutationTest.should_return_a_when_input_a" />
       <item itemvalue="JUnit.PermutationTest.should_return_ab_ba_when_input_ab" />
+      <item itemvalue="JUnit.PermutationTest.should_return_abc_acb_bac_bca_cab_cba_when_input_abc" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PermutationTest.should_return_abc_acb_bac_bca_cab_cba_when_input_abc" />
         <item itemvalue="JUnit.PermutationTest.should_return_ab_ba_when_input_ab" />
         <item itemvalue="JUnit.PermutationTest.should_return_a_when_input_a" />
         <item itemvalue="JUnit.ParkingLotTest" />
         <item itemvalue="JUnit.CarTest.should_return_true_when_call_equals_two_cars_with_same_id" />
-        <item itemvalue="JUnit.ParkingLotTest.should_return_car_when_call_carGo_input_note_in_parkingLot" />
       </list>
     </recent_temporary>
   </component>
@@ -729,14 +729,11 @@
       <updated>1531277313243</updated>
       <workItem from="1531277316425" duration="4985000" />
       <workItem from="1531288801832" duration="5188000" />
-      <workItem from="1535002486851" duration="1058000" />
+      <workItem from="1535002486851" duration="1225000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NoteTest_should_return_1_when_call_getNo_init_1 - 2018.07.11 at 14h 43m 38s.xml">
-      <configuration name="NoteTest.should_return_1_when_call_getNo_init_1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NoteTest_should_return_true_when_call_equals_input_two_notes_with_same_no - 2018.07.11 at 14h 45m 43s.xml">
       <configuration name="NoteTest.should_return_true_when_call_equals_input_two_notes_with_same_no" configurationId="JUnit" />
     </history-entry>
@@ -764,9 +761,12 @@
     <history-entry file="PermutationTest_should_return_ab_ba_when_input_ab - 2018.08.23 at 13h 47m 09s.xml">
       <configuration name="PermutationTest.should_return_ab_ba_when_input_ab" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PermutationTest_should_return_ab_ba_when_input_ab - 2018.08.23 at 13h 52m 37s.xml">
+      <configuration name="PermutationTest.should_return_ab_ba_when_input_ab" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11231000" />
+    <option name="totallyTimeSpent" value="11398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -894,26 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="22">
-            <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/tdd/PermutationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/tdd/Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -921,6 +901,26 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/tdd/PermutationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="220">
+            <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

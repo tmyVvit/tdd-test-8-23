@@ -5,3 +5,7 @@
 2. given: a String "ab"  
    when : permutation.cal("ab")  
    then : return ["ab","ba"]
+   
+3. given: a String "abc"  
+  when : permutation.cal("abc")  
+  then : return ["abc","acb","bac","bca","cab","cba"]
